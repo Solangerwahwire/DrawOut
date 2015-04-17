@@ -15,6 +15,25 @@
         <next>
           <block type="oled_drawtext" id="9">
             <field name="TEXT">*aryanna falls down</field>
+            <next>
+              <block type="oled_setcursor" id="58" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="65">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="75">
+                    <field name="NUM">66</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="oled_drawtext" id="93">
+                    <field name="TEXT">and cries</field>
+                  </block>
+                </next>
+              </block>
+            </next>
           </block>
         </next>
       </block>
